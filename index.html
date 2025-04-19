@@ -11,6 +11,11 @@
 		Credit Card Number:
 		<input name="credit-card" type="text"/>
 	</label>
+	<div
+  	class="cf-turnstile"
+  	data-sitekey="0x4AAAAAABPT94oFJzWLFQwe"
+  	data-callback="javascriptCallback"
+	></div>
 
 	<Button onclick="checkClicked()">Check</Button>
 </body>
@@ -19,6 +24,10 @@
 	function checkClicked() 
 	{
 		alert("Are you dumnn?");
+	}
+
+	function javascriptCallback() {
+		console.log("u r hoooman?");
 	}
 </script>
 
